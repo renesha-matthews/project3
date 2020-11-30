@@ -27,7 +27,42 @@
     </header>
 
     <main>
+      <div class="container">
+        <h2>Contact</h2>
+        <p>If you have any potential projects or job opportunities that you would like me to know about, please fill out the contact form below and I will get back to you as soon as I can. Thank you and looking forward to hearing from you!</p>
 
+        <form class="contact-form" id="test-form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+
+          <div class="first-name input-section">
+            <label for="firstname" class="label_input_wrap">First Name</label>
+            <input type="text" name="req_firstname" id="firstname" placeholder="ex. John" />
+          </div>
+
+          <div class="last-name input-section">
+            <label for="lastname" class="label_input_wrap">Last Name</label>
+            <input type="text" name="req_lastname" id="lastname" placeholder="ex. Smith" />
+          </div>
+
+          <div class="email input-section">
+            <label for="email" class="label_input_wrap">Email</label>
+            <input type="email" name="email" id="email" placeholder="johnsmith@example.com" />
+          </div>
+
+          <div class="subject input-section">
+            <label for="subject" class="label_input_wrap">Subject</label>
+            <input type="text" name="req_subject" id="subject" placeholder="Subject of the Message Goes Here" />
+          </div>
+
+          <div class="comments input-section">
+            <label for="comments" class="label_input_wrap">Message</label>
+            <textarea name="comments" id="comments" rows="5" cols="55" placeholder="Your Message Goes Here"></textarea>
+          </div>
+
+          <div class="submit">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
     </main>
 
     <footer>
