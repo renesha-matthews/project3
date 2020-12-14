@@ -9,16 +9,19 @@ Global Styling
   border: 0;
 }
 
+html {
+  min-height: 100%;
+}
+
 body {
-  background: #111111;
+  background-image: linear-gradient(to bottom right, #c1bfe6, #ea88de);
+  background-repeat: no-repeat;
   color: #e2e0e5;
   font: 16px 'Inter', sans-serif;
+  height: 100%;
 }
 
 h1 {
-  background: linear-gradient(to right, #12d6df 0%, #f70fff 50%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font: 72px 'Fira Code', monospace;
   font-weight: bold;
 }
@@ -41,4 +44,21 @@ nav ul li {
 nav ul li a {
   color: #e2e0e5;
   text-decoration: none;
+  text-transform: uppercase;
+  transition: .3s;
 }
+
+nav ul li a:hover {
+  color: #cf57f6;
+  transition: .3s;
+}
+
+nav ul li a:active {
+  color: #12d6df;
+}
+
+/************************
+
+Home Page Styling
+
+*************************/
