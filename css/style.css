@@ -11,4 +11,34 @@ Global Styling
 
 body {
   background: #111111;
+  color: #e2e0e5;
+  font: 16px 'Inter', sans-serif;
+}
+
+h1 {
+  background: linear-gradient(to right, #12d6df 0%, #f70fff 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font: 72px 'Fira Code', monospace;
+  font-weight: bold;
+}
+
+/************************
+
+Header Styling
+
+*************************/
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav ul li {
+  display: inline;
+  padding: 30px;
+}
+
+nav ul li a {
+  color: #e2e0e5;
+  text-decoration: none;
 }
