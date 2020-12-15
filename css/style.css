@@ -14,16 +14,12 @@ html {
 }
 
 body {
-  background-image: linear-gradient(to bottom right, #c1bfe6, #ea88de);
+  background-image: linear-gradient(to bottom right, #fdfbfb, #ebedee);
   background-repeat: no-repeat;
-  color: #e2e0e5;
+  color: #111111;
   font: 16px 'Inter', sans-serif;
   height: 100%;
-}
-
-h1 {
-  font: 72px 'Fira Code', monospace;
-  font-weight: bold;
+  text-align: center;
 }
 
 /************************
@@ -33,28 +29,29 @@ Header Styling
 *************************/
 header {
   text-align: center;
-  padding: 20px 0;
+  padding: 50px 0;
 }
 
 nav ul li {
   display: inline;
+  font: 18px 'Inter', sans-serif;
   padding: 30px;
 }
 
 nav ul li a {
-  color: #e2e0e5;
+  color: #111111;
   text-decoration: none;
   text-transform: uppercase;
   transition: .3s;
 }
 
 nav ul li a:hover {
-  color: #cf57f6;
+  color: #ff7a95;
   transition: .3s;
 }
 
 nav ul li a:active {
-  color: #12d6df;
+  color: #ffb696;
 }
 
 /************************
@@ -62,3 +59,35 @@ nav ul li a:active {
 Home Page Styling
 
 *************************/
+h1 {
+  font: 72px 'Fira Code', monospace;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.career-title {
+  font: 48px 'Inter', sans-serif;
+  padding: 0 0 50px 0;
+}
+
+.view-work,
+.contact-me {
+  display: inline;
+}
+
+.btn-white {
+  border: 2px solid #ff7a95;
+  border-radius: 24px;
+  color: #ff7a95;
+  margin: 14px;
+  padding: 10px 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .3s;
+}
+
+.btn-white:hover {
+  background: #ff7a95;
+  color: #fff;
+  transition: .3s;
+}
