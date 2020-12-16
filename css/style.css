@@ -194,6 +194,40 @@ Portfolio Page Styling
   background-image: linear-gradient(to bottom right, #ffecd2, #fcb69f);
 }
 
+.slick-slide {
+    position: relative;
+}
+
+.slick-slide img {
+    display: block;
+    margin: 0 auto;
+}
+
+.slick-prev:before {
+    content: "\f137";
+    font-family: "FontAwesome";
+    font-size: 26px;
+}
+
+.slick-next:before {
+    content: "\f138";
+    font-family: "FontAwesome";
+    font-size: 26px;
+}
+
+.slick-prev {
+    left: 12px;
+    z-index: 1;
+}
+
+.slick-next {
+    right: 12px;
+}
+
+figcaption {
+  margin-top: 20px;
+}
+
 /************************
 
 Contact Page Styling
