@@ -14,7 +14,8 @@ html {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 body {
@@ -24,9 +25,24 @@ body {
   font: 16px 'Inter', sans-serif;
 }
 
+h1 {
+  font-size: 72px;
+  padding: 30px;
+  text-align: center;
+}
 
 h2 {
-  font: 38px 'Fira Code', monospace;
+  font-size: 38px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Fira Code', monospace;
 }
 
 h1::selection,
@@ -80,20 +96,11 @@ nav ul li a:active {
 Home Page Styling
 
 *************************/
-
-h1 {
-  font: 72px 'Fira Code', monospace;
-  font-weight: bold;
-  padding: 30px;
-}
-
-
 .career-title {
   font: 48px 'Inter', sans-serif;
   padding: 0 0 50px 0;
 }
 
-h1,
 .career-title {
   text-align: center;
 }
@@ -149,6 +156,47 @@ About Page Styling
 /************************
 
 Portfolio Page Styling
+
+*************************/
+.portfolio {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.container .project-one,
+.container .project-two,
+.container .project-three,
+.container .project-four {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  border-radius: 30px;
+  padding: 30px;
+  margin: 50px 50px 100px 50px;
+}
+
+.container h3 {
+  padding: 30px;
+}
+
+.container .project-one {
+    background-image: linear-gradient(to bottom right, #ff9a9e, #fad0c4);
+}
+
+.container .project-two {
+    background-image: linear-gradient(to bottom right, #fad0c4, #ffd1ff);
+}
+
+.container .project-three {
+  background-image: linear-gradient(to bottom right, #ff9a9e, #fecfef);
+}
+
+.container .project-four {
+  background-image: linear-gradient(to bottom right, #ffecd2, #fcb69f);
+}
+
+/************************
+
+Contact Page Styling
 
 *************************/
 
