@@ -27,7 +27,6 @@ body {
 
 h2 {
   font: 38px 'Fira Code', monospace;
-  text-transform: uppercase;
 }
 
 h1::selection,
@@ -139,7 +138,6 @@ About Page Styling
 }
 
 .text-container h2 {
-  text-transform: none;
   padding-bottom: 5px;
   }
 
@@ -147,6 +145,12 @@ About Page Styling
     line-height: 2.5em;
     margin: 15px 70px;
 }
+
+/************************
+
+Portfolio Page Styling
+
+*************************/
 
 
 
