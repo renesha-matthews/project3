@@ -265,15 +265,16 @@ Contact Page Styling
 }
 
 .contact-me,
+input::placeholder,
 textarea::placeholder {
   text-align: center;
 }
 
 .contact-form {
-  background-image: linear-gradient(to bottom right, #ffb696, #ffa985);
-  border: 16px solid #ff7a95;
-  border-radius: 10px;
-  color: #fff;
+  background: #fdfbfb;
+  border: 16px solid;
+  border-image: linear-gradient(45deg, #ff7a95, #ffb696) 1;
+  color: #111111;
   font: 20px 'Inter', sans-serif;
   max-width: 638px;
   min-height: 500px;
@@ -297,11 +298,16 @@ textarea {
   margin-bottom: 20px;
 }
 
+input,
+textarea {
+  border: 2px solid #ff7a95;
+}
+
 
 input::selection,
 textarea::selection {
   color: #fff;
-  background: #ff1a95;
+  background: #ffb696;
 }
 
 textarea::placeholder {
@@ -310,17 +316,17 @@ textarea::placeholder {
 
 .submit input {
   background: transparent;
-  border: 2px solid #fff;
+  border: 2px solid #ff7a95;
   border-radius: 20px;
-  color: #fff;
+  color: #ff7a95;
   padding: 10px 30px;
   text-transform: uppercase;
   transition: .3s;
 }
 
 .submit input:hover {
-  background: #fff;
-  color: #ff7a95;
+  background: #ff7a95;
+  color: #fff;
   cursor: pointer;
   transition: .3s;
 }
