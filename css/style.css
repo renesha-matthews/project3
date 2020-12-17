@@ -66,6 +66,7 @@ header {
 .logo-container {
   position: relative;
   float: left;
+  margin-left: 40px;
   transition: .3s;
 }
 
@@ -128,6 +129,10 @@ Home Page Styling
   background: #ff7a95;
   color: #fff;
   transition: .3s;
+}
+
+.computer img {
+  margin: 50px auto;
 }
 
 
@@ -257,7 +262,7 @@ textarea::placeholder {
 
 .contact-form {
   background-image: linear-gradient(to bottom right, #ffb696, #ffa985);
-  border: 20px solid #ff7a95;
+  border: 16px solid #ff7a95;
   border-radius: 10px;
   color: #fff;
   font: 20px 'Inter', sans-serif;
@@ -288,6 +293,10 @@ input::selection,
 textarea::selection {
   color: #fff;
   background: #ff1a95;
+}
+
+textarea::placeholder {
+  padding: 30px;
 }
 
 .submit input {
