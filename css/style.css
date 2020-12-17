@@ -109,10 +109,12 @@ Home Page Styling
   text-align: center;
 }
 
-.view-work,
-.contact-me {
-  display: inline;
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
 }
+
 
 .btn-red {
   border: 2px solid #ff7a95;
@@ -131,8 +133,8 @@ Home Page Styling
   transition: .3s;
 }
 
-.computer img {
-  margin: 50px auto;
+.computer {
+  text-align: center;
 }
 
 
@@ -150,11 +152,14 @@ About Page Styling
 
 .text-container {
   text-align: left;
+  overflow: hidden;
 }
 
 .text-container h2 {
   padding-bottom: 5px;
-  }
+  text-align: center;
+}
+
 
 .text-container p {
     line-height: 2.5em;
@@ -181,7 +186,6 @@ Portfolio Page Styling
   padding: 30px;
   margin: 50px 50px 100px 50px;
 }
-
 
 .container h3 {
   padding: 30px;
@@ -349,3 +353,9 @@ footer {
   font-size: 14px;
   margin-top: 8px;
 }
+
+/************************
+
+CSS Animation
+
+*************************/
