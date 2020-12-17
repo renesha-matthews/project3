@@ -139,7 +139,7 @@ footer {
   <p class="connect">Let's Connect!</p>
   <p class="socialmedia">
     <a href="https://www.instagram.com/reneshadotcom/" target="_blank"><i class="fab fa-instagram-square"></i></a>
-    <a href="https:///www.twitter.com/reneshadotcom" target="_blank"><i class="fab fa-twitter-square"></i></a>
+    <a href="https://www.twitter.com/reneshadotcom" target="_blank"><i class="fab fa-twitter-square"></i></a>
     <a href="https://www.linkedin.com/in/renesha-matthews-903b24126/" target="_blank"><i class="fab fa-linkedin"></i></a>
   </p>
   <p class="site-credit">Coded and Designed by: Renesha Matthews</p>
