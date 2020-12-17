@@ -103,10 +103,15 @@ nav ul li a:active {
 Home Page Styling
 
 *************************/
+.home-page h1 {
+  animation: intro 2s linear;
+}
+
 .career-title {
   font: 48px 'Inter', sans-serif;
   padding: 0 0 50px 0;
   text-align: center;
+  animation: subtitle 2s linear;
 }
 
 .buttons {
@@ -359,3 +364,14 @@ footer {
 CSS Animation
 
 *************************/
+@keyframes intro {
+  from {
+    transform: translateX(-1000px);
+  }
+}
+
+@keyframes subtitle {
+  from {
+    transform: translateX(1000px);
+  }
+}
