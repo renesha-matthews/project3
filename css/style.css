@@ -177,8 +177,18 @@ Portfolio Page Styling
   margin: 50px 50px 100px 50px;
 }
 
+
 .container h3 {
   padding: 30px;
+}
+
+.container img {
+  transition: .3s;
+}
+
+.container img:hover {
+  opacity: 0.5;
+  transition: .3s;
 }
 
 .container .project-one {
@@ -246,7 +256,8 @@ textarea::placeholder {
 }
 
 .contact-form {
-  background-image: linear-gradient(to bottom right, #ffb696 45%, #ff7a95);
+  background-image: linear-gradient(to bottom right, #ffb696, #ffa985);
+  border: 20px solid #ff7a95;
   border-radius: 10px;
   color: #fff;
   font: 20px 'Inter', sans-serif;
@@ -272,10 +283,11 @@ textarea {
   margin-bottom: 20px;
 }
 
+
 input::selection,
 textarea::selection {
   color: #fff;
-  background: #ff7a95;
+  background: #ff1a95;
 }
 
 .submit input {
@@ -301,6 +313,30 @@ Footer Styling
 
 *************************/
 footer {
-  clear: both;
-  text-align: center;
+    clear: both;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+}
+
+.connect {
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+
+.socialmedia a {
+    font-size: 50px;
+    color: #ff7a95;
+    margin: 5px;
+    transition: .3s;
+}
+
+.socialmedia a:hover {
+  color: #ffb696;
+  transition: .3s;
+}
+
+.site-credit {
+  font-size: 14px;
+  margin-top: 8px;
 }
