@@ -66,6 +66,12 @@ header {
 .logo-container {
   position: relative;
   float: left;
+  transition: .3s;
+}
+
+.logo-container:hover {
+  opacity: 0.5;
+  transition: .3s;
 }
 
 
@@ -99,9 +105,6 @@ Home Page Styling
 .career-title {
   font: 48px 'Inter', sans-serif;
   padding: 0 0 50px 0;
-}
-
-.career-title {
   text-align: center;
 }
 
@@ -110,7 +113,7 @@ Home Page Styling
   display: inline;
 }
 
-.btn-white {
+.btn-red {
   border: 2px solid #ff7a95;
   border-radius: 24px;
   color: #ff7a95;
@@ -121,7 +124,7 @@ Home Page Styling
   transition: .3s;
 }
 
-.btn-white:hover {
+.btn-red:hover {
   background: #ff7a95;
   color: #fff;
   transition: .3s;
@@ -233,8 +236,64 @@ figcaption {
 Contact Page Styling
 
 *************************/
+.contact-me h2 {
+  margin-bottom: 10px;
+}
 
+.contact-me,
+textarea::placeholder {
+  text-align: center;
+}
 
+.contact-form {
+  background-image: linear-gradient(to bottom right, #ffb696 45%, #ff7a95);
+  border-radius: 10px;
+  color: #fff;
+  font: 20px 'Inter', sans-serif;
+  max-width: 638px;
+  min-height: 500px;
+  margin: 50px auto;
+  padding: 20px;
+
+}
+
+.label_input_wrap {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px 20px 8px 10px;
+}
+
+textarea {
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+
+input::selection,
+textarea::selection {
+  color: #fff;
+  background: #ff7a95;
+}
+
+.submit input {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  color: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  transition: .3s;
+}
+
+.submit input:hover {
+  background: #fff;
+  color: #ff7a95;
+  cursor: pointer;
+  transition: .3s;
+}
 
 /************************
 
