@@ -12,6 +12,7 @@ html {
 .container {
   max-width: 1500px;
   margin: 0 auto;
+  text-align: center;
 }
 
 body {
@@ -24,7 +25,6 @@ body {
 h1 {
   font-size: 72px;
   padding: 30px;
-  text-align: center;
 }
 
 h2 {
@@ -91,7 +91,6 @@ nav ul li a:active {
 
 footer {
     clear: both;
-    font-weight: bold;
     text-align: center;
     margin: 50px;
 }
@@ -118,6 +117,9 @@ footer {
   margin-top: 8px;
 }
 </style>
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/4308417424.js" crossorigin="anonymous"></script>
 
 <header>
   <div class="logo-container">
