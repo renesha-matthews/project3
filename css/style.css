@@ -66,6 +66,7 @@ header {
 .logo-container {
   position: relative;
   float: left;
+  margin-left: 40px;
   transition: .3s;
 }
 
@@ -73,11 +74,6 @@ header {
   opacity: 0.5;
   transition: .3s;
 }
-
-.logo {
-  margin-left: 40px;
-}
-
 
 nav ul li {
   display: inline-block;
