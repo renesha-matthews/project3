@@ -66,13 +66,16 @@ header {
 .logo-container {
   position: relative;
   float: left;
-  margin-left: 40px;
   transition: .3s;
 }
 
 .logo-container:hover {
   opacity: 0.5;
   transition: .3s;
+}
+
+.logo {
+  margin-left: 40px;
 }
 
 

@@ -120,6 +120,13 @@ footer {
 </style>
 
 <header>
+  <div class="logo-container">
+    <a href="index.html">
+      <img class="logo" src="image/heart-logo.png" alt="Heart Logo" title="Heart Logo" width="50" />
+    </a>
+  </div>
+
+
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
