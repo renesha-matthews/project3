@@ -158,14 +158,15 @@ About Page Styling
   margin: 0 100px;
 }
 
+
 .text-container {
   text-align: left;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .text-container h2 {
   padding-bottom: 5px;
-  text-align: center;
+  margin-left: 65px;
 }
 
 
